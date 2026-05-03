@@ -1,0 +1,90 @@
+[
+  {
+    "text": "\u00bfCu\u00e1l es tu objetivo principal?",
+    "type": "single",
+    "affects": "general",
+    "order": 1,
+    "options": [
+      {
+        "label": "Bajar de peso",
+        "tags": [
+          "weight_loss"
+        ],
+        "calorie_modifier": -300,
+        "level": "beginner"
+      },
+      {
+        "label": "Ganar masa muscular",
+        "tags": [
+          "muscle_gain"
+        ],
+        "calorie_modifier": 300,
+        "level": "intermediate"
+      },
+      {
+        "label": "Mantenerme en forma",
+        "tags": [
+          "maintenance"
+        ],
+        "calorie_modifier": 0,
+        "level": "beginner"
+      }
+    ],
+    "id": "e83353a2-1dec-4f55-bbfb-2e373dd9e58f"
+  },
+  {
+    "text": "\u00bfCu\u00e1l es tu nivel de experiencia?",
+    "type": "single",
+    "affects": "routine",
+    "order": 2,
+    "options": [
+      {
+        "label": "Principiante",
+        "tags": [],
+        "calorie_modifier": 0,
+        "level": "beginner"
+      },
+      {
+        "label": "Intermedio",
+        "tags": [],
+        "calorie_modifier": 0,
+        "level": "intermediate"
+      },
+      {
+        "label": "Avanzado",
+        "tags": [],
+        "calorie_modifier": 0,
+        "level": "advanced"
+      }
+    ],
+    "id": "2c62ef1e-37d7-450e-affd-403d3be3fea0"
+  },
+  {
+    "text": "\u00bfTienes alguna restricci\u00f3n alimentaria?",
+    "type": "single",
+    "affects": "diet",
+    "order": 3,
+    "options": [
+      {
+        "label": "Ninguna",
+        "tags": [],
+        "calorie_modifier": 0
+      },
+      {
+        "label": "Vegetariano",
+        "tags": [
+          "vegetarian"
+        ],
+        "calorie_modifier": 0
+      },
+      {
+        "label": "Vegano",
+        "tags": [
+          "vegan"
+        ],
+        "calorie_modifier": 0
+      }
+    ],
+    "id": "b2560dae-6ee5-4bf7-bf5e-457b2d3793db"
+  }
+]

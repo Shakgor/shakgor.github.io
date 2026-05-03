@@ -1,0 +1,20 @@
+[
+  {
+    "name": "TEST_Beg",
+    "level": "beginner",
+    "goal_tags": [
+      "weight_loss"
+    ],
+    "required_equipment": [],
+    "exercises": [
+      {
+        "name": "Squat",
+        "sets": 3,
+        "reps": "12",
+        "equipment": "",
+        "notes": ""
+      }
+    ],
+    "id": "eef0b791-07f8-4051-af43-271c7a27d095"
+  }
+]

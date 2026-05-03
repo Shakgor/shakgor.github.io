@@ -1,0 +1,33 @@
+[
+  {
+    "id": "c325b220-5477-4f3f-9fa8-414059cd459d",
+    "slug": "test-gym-c325b2",
+    "owner_id": "bcf07648-804f-43de-b4e0-1ec3145d6ed1",
+    "name": "Test Gym",
+    "logo_url": "",
+    "primary_color": "#FF3B30",
+    "secondary_color": "#007AFF",
+    "background_color": "#0A0A0A",
+    "equipment": [],
+    "subscription_status": "active",
+    "subscription_expires_at": "2026-06-02T02:42:49.500755+00:00",
+    "created_at": "2026-05-03T02:42:46.173511+00:00"
+  },
+  {
+    "id": "c0b8138d-5677-4c64-bb45-eae46e58789e",
+    "slug": "test-gym-c0b813",
+    "owner_id": "1a41ce63-f95b-46f6-ac99-02f3c5fdd00a",
+    "name": "Test Gym",
+    "logo_url": "http://x/l.png",
+    "primary_color": "#111111",
+    "secondary_color": "#222222",
+    "background_color": "#000000",
+    "equipment": [
+      "mancuernas",
+      "barra"
+    ],
+    "subscription_status": "active",
+    "subscription_expires_at": "2026-06-02T02:44:45.415799+00:00",
+    "created_at": "2026-05-03T02:44:44.938483+00:00"
+  }
+]

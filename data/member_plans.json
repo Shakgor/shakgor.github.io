@@ -1,0 +1,144 @@
+[
+  {
+    "member_id": "07494d81-5b55-466c-b1ac-30f28586b605",
+    "answers": [
+      {
+        "question_id": "e83353a2-1dec-4f55-bbfb-2e373dd9e58f",
+        "option_index": 0
+      },
+      {
+        "question_id": "2c62ef1e-37d7-450e-affd-403d3be3fea0",
+        "option_index": 0
+      },
+      {
+        "question_id": "b2560dae-6ee5-4bf7-bf5e-457b2d3793db",
+        "option_index": 0
+      }
+    ],
+    "calorie_target": 1700,
+    "created_at": "2026-05-03T02:42:51.741089+00:00",
+    "diet": {
+      "target_calories": 1700,
+      "meals": {
+        "breakfast": [],
+        "lunch": [],
+        "dinner": [],
+        "snack": []
+      }
+    },
+    "gym_id": "c325b220-5477-4f3f-9fa8-414059cd459d",
+    "level": "beginner",
+    "routine": null,
+    "tags": [
+      "weight_loss"
+    ]
+  },
+  {
+    "member_id": "5a0105ae-d2fb-4b86-93da-4128bf51578d",
+    "answers": [
+      {
+        "question_id": "e83353a2-1dec-4f55-bbfb-2e373dd9e58f",
+        "option_index": 0
+      },
+      {
+        "question_id": "2c62ef1e-37d7-450e-affd-403d3be3fea0",
+        "option_index": 0
+      },
+      {
+        "question_id": "b2560dae-6ee5-4bf7-bf5e-457b2d3793db",
+        "option_index": 0
+      }
+    ],
+    "calorie_target": 1700,
+    "created_at": "2026-05-03T02:44:48.593487+00:00",
+    "diet": {
+      "target_calories": 1700,
+      "meals": {
+        "breakfast": [
+          {
+            "id": "1f8ddb44-85ba-43d9-a26e-84aa719abbc8",
+            "name": "Oatmeal",
+            "calories": 150.0,
+            "amount": 100.0,
+            "unit": "g",
+            "tags": [],
+            "meal_type": "breakfast"
+          }
+        ],
+        "lunch": [
+          {
+            "id": "21488a31-f55a-4db7-87ec-c58c4f56d49b",
+            "name": "Chicken Breast",
+            "calories": 250.0,
+            "amount": 150.0,
+            "unit": "g",
+            "tags": [
+              "meat"
+            ],
+            "meal_type": "lunch"
+          },
+          {
+            "id": "d749842a-b3cf-4f5e-b47a-45dafadd88cb",
+            "name": "Rice",
+            "calories": 200.0,
+            "amount": 100.0,
+            "unit": "g",
+            "tags": [],
+            "meal_type": "lunch"
+          }
+        ],
+        "dinner": [
+          {
+            "id": "5346e56d-5032-4549-a738-c05386f8f15e",
+            "name": "Salad",
+            "calories": 80.0,
+            "amount": 100.0,
+            "unit": "g",
+            "tags": [
+              "vegan",
+              "vegetarian"
+            ],
+            "meal_type": "dinner"
+          }
+        ],
+        "snack": [
+          {
+            "id": "3c17d7da-a867-4572-8edb-406ee4e2a326",
+            "name": "Apple",
+            "calories": 95.0,
+            "amount": 1.0,
+            "unit": "unit",
+            "tags": [
+              "vegan",
+              "vegetarian"
+            ],
+            "meal_type": "snack"
+          }
+        ]
+      }
+    },
+    "gym_id": "c0b8138d-5677-4c64-bb45-eae46e58789e",
+    "level": "beginner",
+    "routine": {
+      "name": "TEST_Beg",
+      "level": "beginner",
+      "goal_tags": [
+        "weight_loss"
+      ],
+      "required_equipment": [],
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": 3,
+          "reps": "12",
+          "equipment": "",
+          "notes": ""
+        }
+      ],
+      "id": "eef0b791-07f8-4051-af43-271c7a27d095"
+    },
+    "tags": [
+      "weight_loss"
+    ]
+  }
+]
