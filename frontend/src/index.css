@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --gb-primary: #FF3B30;
+  --gb-primary-hover: #FF5A52;
+  --gb-secondary: #007AFF;
+  --gb-bg: #0A0A0A;
+  --gb-surface: #141414;
+  --gb-surface-elev: #1C1C1C;
+  --gb-text: #FFFFFF;
+  --gb-text-muted: #A1A1AA;
+  --gb-border: rgba(255, 255, 255, 0.1);
+}
+
+html, body, #root {
+  background: var(--gb-bg);
+  color: var(--gb-text);
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  font-family: 'Manrope', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display {
+  font-family: 'Bebas Neue', 'Manrope', sans-serif;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 4%;
+    --foreground: 0 0% 100%;
+    --card: 0 0% 8%;
+    --card-foreground: 0 0% 100%;
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 4 100% 59%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 11%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 0 0% 11%;
+    --muted-foreground: 0 0% 64%;
+    --accent: 0 0% 11%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 0 0% 100% / 0.1;
+    --input: 0 0% 11%;
+    --ring: 4 100% 59%;
+    --radius: 0.125rem;
+  }
+  * { border-color: hsl(var(--border)); }
+  body { background-color: hsl(var(--background)); color: hsl(var(--foreground)); }
+}
+
+.gb-card {
+  background: var(--gb-surface);
+  border: 1px solid var(--gb-border);
+  border-radius: 2px;
+}
+
+.gb-input {
+  background: var(--gb-surface-elev);
+  border: 1px solid var(--gb-border);
+  color: var(--gb-text);
+  padding: 10px 12px;
+  border-radius: 2px;
+  width: 100%;
+  outline: none;
+  transition: border-color 150ms ease-out;
+  font-family: 'Manrope', sans-serif;
+}
+.gb-input:focus { border-color: var(--gb-primary); }
+
+.gb-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--gb-primary);
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 2px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 13px;
+  border: 0;
+  cursor: pointer;
+  transition: transform 150ms ease-out, background 150ms ease-out;
+}
+.gb-btn:hover { background: var(--gb-primary-hover); transform: translateY(-1px); }
+.gb-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.gb-btn-outline {
+  background: transparent;
+  border: 1px solid var(--gb-border);
+  color: var(--gb-text);
+}
+.gb-btn-outline:hover { border-color: var(--gb-primary); background: rgba(255,59,48,0.08); }
+
+.gb-btn-ghost {
+  background: transparent;
+  color: var(--gb-text-muted);
+  border: 0;
+}
+.gb-btn-ghost:hover { color: var(--gb-text); background: var(--gb-surface-elev); }
+
+.gb-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.gb-table th {
+  text-align: left;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gb-text-muted);
+  padding: 12px 10px;
+  border-bottom: 1px solid var(--gb-border);
+}
+.gb-table td {
+  padding: 12px 10px;
+  border-bottom: 1px solid var(--gb-border);
+  font-size: 14px;
+}
+.gb-table tr:hover td { background: rgba(255,255,255,0.02); }
+
+.tactical-grid-bg {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.gb-badge {
+  display: inline-flex; padding: 2px 8px; font-size: 11px; letter-spacing: 0.1em;
+  text-transform: uppercase; border: 1px solid var(--gb-border); border-radius: 2px;
+}
+.gb-badge.success { color: #34C759; border-color: #34C759; }
+.gb-badge.warning { color: #FF9F0A; border-color: #FF9F0A; }
+.gb-badge.error { color: #FF453A; border-color: #FF453A; }
+.gb-badge.muted { color: var(--gb-text-muted); }
+
+::selection { background: var(--gb-primary); color: #fff; }
